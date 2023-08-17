@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Notification Card</title>
+		<link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+	</head>
+	<body>
+		<main class="container">
+			<div class="card">
+				<div class="card__header">
+					<h1>Notifications</h1>
+
+					<button data-title="Clear All" id="cogBtn">
+						<img src="./assets/icons/cog.svg" alt="cog icon">
+					</button>
+
+					<div class="clear__bubble hidden">
+						<div class="clear__bubble__btn"></div>
+					</div>
+				</div>
+
+				<div class="card__body">
+					<ul class="card__body__list"></ul>
+				</div>
+			</div>
+		</main>
+
+		<script src="./assets/js/main.js" type="module"></script>
+	</body>
+</html>
